@@ -53,7 +53,9 @@ public class TronGame {
         // modify data
         if (!data.isGameOver) {
         	for (int j=0; j<numPlayer; j++) {
-            	data.occupyNewPoint(x[j], y[j], action[j], j);
+        		if (!data.isDead(j)) {
+        			data.occupyNewPoint(x[j], y[j], action[j], j);
+        		}
             }
         }
         
