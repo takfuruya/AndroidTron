@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tronservice"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".TronServiceSampleActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".MyAI"
+            android:label="Ram"
+            android:icon="@drawable/computer_icon" >
+			<intent-filter>
+				<action android:name="com.tfuruya.tron.service.AI_SERVICE" />
+			</intent-filter>
+		</service>
+		<service
+            android:name=".MyOtherAI"
+            android:label="Sark"
+            android:icon="@drawable/lizard_icon" >
+			<intent-filter>
+				<action android:name="com.tfuruya.tron.service.AI_SERVICE" />
+			</intent-filter>
+		</service>
+		<service
+            android:name=".MyThirdAI"
+            android:label="Third"
+            android:icon="@drawable/ic_launcher" >
+			<intent-filter>
+				<action android:name="com.tfuruya.tron.service.AI_SERVICE" />
+			</intent-filter>
+		</service>
+		<service
+            android:name=".MyFourthAI"
+            android:label="Fourth"
+            android:icon="@drawable/ic_launcher" >
+			<intent-filter>
+				<action android:name="com.tfuruya.tron.service.AI_SERVICE" />
+			</intent-filter>
+		</service>
+		<service
+            android:name=".MyFifthAI"
+            android:label="Fifth"
+            android:icon="@drawable/ic_launcher" >
+			<intent-filter>
+				<action android:name="com.tfuruya.tron.service.AI_SERVICE" />
+			</intent-filter>
+		</service>
+		<service
+            android:name=".MySixthAI"
+            android:label="Sixth"
+            android:icon="@drawable/ic_launcher" >
+			<intent-filter>
+				<action android:name="com.tfuruya.tron.service.AI_SERVICE" />
+			</intent-filter>
+		</service>
+		<service
+            android:name=".MySeventhAI"
+            android:label="Seventh"
+            android:icon="@drawable/ic_launcher" >
+			<intent-filter>
+				<action android:name="com.tfuruya.tron.service.AI_SERVICE" />
+			</intent-filter>
+		</service>
+    </application>
+
+</manifest>

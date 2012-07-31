@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TronActivity!</string>
+    <string name="app_name">Tron</string>
+    <string name="remote_service_connected">Tron: connected to remote service</string>
+    <string name="remote_service_disconnected">Tron: disconnected from remote service</string>
+    <string name="remote_service_binding">Tron: binding to remote service</string>
+    <string name="remote_exception">Tron: failed to send message to remote service</string>
+
+</resources>

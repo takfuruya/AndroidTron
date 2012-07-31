@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TronServiceSampleActivity!</string>
+    <string name="app_name">TronServiceSample</string>
+    <string name="remote_service_started">Service: started</string>
+    <string name="remote_service_stopped">Service: stopped</string>
+    <string name="remote_exception">Service: game app is dead</string>
+
+</resources>
